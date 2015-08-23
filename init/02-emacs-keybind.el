@@ -16,3 +16,5 @@
 (define-key global-map (kbd "C-t") 'other-window)
 ;; bind to "C-c i" for indent-region
 (define-key global-map (kbd "C-c i") 'indent-region)
+;; bind to "C-x SPC" for cycle-spacing
+(define-key global-map (kbd "C-x SPC") 'cycle-spacing)
