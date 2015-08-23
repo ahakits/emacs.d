@@ -28,4 +28,3 @@
   (c-set-offset 'arglist-intro 'ywb-php-lineup-arglist-intro) ; array indent
   (c-set-offset 'arglist-close 'ywb-php-lineup-arglist-close))
 (add-hook 'php-mode-hook 'php-indent-hook)
-(add-hook 'php-mode-hook (lambda () (c-set-style "linux"))) ; indent style
