@@ -1,4 +1,3 @@
 backups/*
+el-get/*
 !.gitkeep
-
-
