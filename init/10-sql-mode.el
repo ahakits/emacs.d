@@ -13,10 +13,6 @@
      (load-library "sql-transform")
      ))
 
-;; default database
-(setq sql-user "spg4_dev")
-(setq sql-database "spg4")
-
 (add-hook 'sql-mode-hook
           (function (lambda ()
                       (setq sql-indent-offset 4)

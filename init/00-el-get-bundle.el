@@ -6,6 +6,7 @@
 
 ;; mode
 (el-get-bundle web-mode)
+(el-get-bundle yaml-mode)
 (el-get-bundle js2-mode)
 (el-get-bundle php-mode)
 (el-get-bundle cperl-mode)
@@ -15,6 +16,9 @@
 (el-get-bundle inf-ruby)
 (el-get-bundle ddskk)
 (el-get-bundle ace-jump-mode)
+(el-get-bundle sql-indent)
+(el-get-bundle sql-complete)
+(el-get-bundle sql-transform)
 ;; anything
 (el-get-bundle emacswiki:anything)
 (el-get-bundle emacswiki:anything-config)
