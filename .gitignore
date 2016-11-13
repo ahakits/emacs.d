@@ -1,3 +1,5 @@
 backups/*
 el-get/*
+auto-save-list/*
+recentf
 !.gitkeep
