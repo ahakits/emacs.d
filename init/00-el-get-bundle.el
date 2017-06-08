@@ -54,3 +54,4 @@
 (el-get-bundle elscreen)
 (el-get-bundle wdired)
 (el-get-bundle direx)
+(el-get-bundle flycheck)
