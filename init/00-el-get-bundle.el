@@ -4,7 +4,7 @@
 ;; el-get-bundle
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; mode
+;; programming modes
 (el-get-bundle web-mode)
 (el-get-bundle yaml-mode)
 (el-get-bundle js2-mode)
@@ -34,9 +34,8 @@
 (el-get-bundle emacswiki:ipa)
 (el-get-bundle emacswiki:anything-ipa)
 (el-get-bundle emacswiki:anything-obsolete)
-(el-get-bundle anything-c-moccur
-  :type http
-  :url "http://svn.coderepos.org/share/lang/elisp/anything-c-moccur/trunk/anything-c-moccur.el")
+(el-get-bundle ahakits/anything-c-moccur)
+
 ;; expansion
 (el-get-bundle auto-complete)
 (el-get-bundle moccur-edit)
