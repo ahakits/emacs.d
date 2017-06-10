@@ -16,10 +16,10 @@
   (set-scroll-bar-mode nil)
   ;; set ascii font
   ;;(set-face-attribute 'default nil
-  ;;		      :family "Ricty")
+  ;;                    :family "Ricty")
   ;; set japanese font
   ;;(set-fontset-font nil 'japanese-jisx0208
-  ;;		    (font-spec :family "Ricty"))
+  ;;                  (font-spec :family "Ricty"))
   )
 
 ;; set file name coding system  OSX
