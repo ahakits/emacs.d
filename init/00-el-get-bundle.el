@@ -13,12 +13,16 @@
 (el-get-bundle ruby-mode)
 (el-get-bundle ruby-electric)
 (el-get-bundle ruby-block)
+(el-get-bundle rbenv)
 (el-get-bundle inf-ruby)
+(el-get-bundle robe-mode)
+(el-get-bundle rspec-mode)
 (el-get-bundle ddskk)
 (el-get-bundle ace-jump-mode)
 (el-get-bundle sql-indent)
 (el-get-bundle sql-complete)
 (el-get-bundle sql-transform)
+
 ;; anything
 (el-get-bundle emacswiki:anything)
 (el-get-bundle emacswiki:anything-config)
