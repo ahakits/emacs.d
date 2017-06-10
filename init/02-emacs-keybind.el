@@ -18,3 +18,6 @@
 (define-key global-map (kbd "C-c i") 'indent-region)
 ;; bind to "C-x SPC" for cycle-spacing
 (define-key global-map (kbd "C-x SPC") 'cycle-spacing)
+
+;; replace yes-or-no with y-or-n
+(fset 'yes-or-no-p 'y-or-n-p)

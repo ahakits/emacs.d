@@ -10,5 +10,5 @@
   (setq ac-comphist-file "~/.emacs.d/el-get/auto-complete/ac-comphist.dat/")
   (setq ac-use-menu-map t)
   (setq ac-auto-start nil)
-  (define-key ac-mode-map (kbd "M-SPC") 'auto-complete)
+  (define-key ac-mode-map (kbd "TAB") 'auto-complete)
   (ac-config-default))
